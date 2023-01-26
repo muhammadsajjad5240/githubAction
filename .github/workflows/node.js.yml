@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - "githubAction"
-  # pull_request:
-  #   branches:
-  #     - "main"
+  pull_request:
+    branches:
+      - "githubAction"
 
 jobs:
   tests:
